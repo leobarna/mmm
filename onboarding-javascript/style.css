@@ -1,0 +1,97 @@
+:root {
+  --mainTextOne: #a9a9a9;
+  --mainTextTwo: #ffffff;
+  --mainTextTree: #708090;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Century Gothic", sans-serif;
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--mainTextOne);
+}
+ p,span,label,input,textarea{
+    color:black;
+} */
+a{
+    text-decoration: none;
+    color:var(--mainTextTree);
+}
+ul,li{
+    list-style: none;
+}
+.container {
+  max-width: 90vw;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+nav.navbar.container {
+    margin-top: 2rem;
+}
+.navbar__brand {
+  font-weight: bold;
+  flex-basis: 30%;
+  font-size: 2rem;
+  color: #000;
+}
+.navbar__list {
+  display: flex;
+  flex-basis: 50%;
+  margin-left: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 3rem;
+}
+.navbar__item {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #000;
+}
+.navbar__btn a {
+  text-decoration: none;
+  color: var(--mainTextTwo);
+}
+.navbar__btn {
+  text-transform: uppercase;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 3rem;
+  background-color: rgb(4, 184, 127);
+}
+.navbar__btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.s1 {
+  background-color: #ffd602;
+}
+.s2 {
+  background-color: #ff7062;
+}
+.s3 {
+  background-color:#5cc3fe;
+}
+.s4 {
+  background-color: #708090;
+}
+.s5 {
+  background-color: #6cd09c;
+}
+.footer {
+  background-color: black;
+  color:var(--mainTextTwo);
+}
